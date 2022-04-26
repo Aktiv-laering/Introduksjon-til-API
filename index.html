@@ -5,9 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="stylesheet" href="css/style.css" />
     </head>
-    <body>
-        <div class="container">Loading...</div>
+    <body class="bg-lightblue">
+        <div class="center-mt">
+            <input type="text" id="city-search" placeholder="Skriv inn en by" onKeyUp="inputChange(event)" />
+        </div>
+        <div class="wrapper">
+            <div class="results">
+                <p>Laster inn været...</p>
+                <p id="timer"></p>
+            </div>
+        </div>
         <script src="js/script.js"></script>
     </body>
 </html>
