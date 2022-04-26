@@ -76,7 +76,7 @@ Hente værdata
 //         method: "GET",
 //         headers: {
 //             "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com",
-//             "X-RapidAPI-Key": "afe0dc92f5msh7ad62a30b14e5a9p1a5589jsne11e490d9b55",
+//             "X-RapidAPI-Key": "OBS-ENDRE-DENNE",
 //         },
 //     };
 
